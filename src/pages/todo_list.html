@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset=UTF-8>
+		<title>Liste de tâches</title>
+		<link rel="icon" href="../../res/icons/portfolio.ico">
+		<link rel="stylesheet" href="../styles/style_project.css">
+		<style>
+			div#illustrations { justify-content: space-around; }
+			div.illustration { width: min-content; }
+			img.content { height: 100vh; border: 2px solid black; }
+		</style>
+	</head>
+
+	<body>
+	
+		<h1 id="title">Liste de tâches</h1>
+
+		<button id="home_button" onclick="window.location.href='../index.html';">
+			<img src="../../res/icons/home.ico">
+		</button>
+
+		<div class="section">
+			<h2 class="section_title">Informations générales :</h2>
+			<ul id="properties">
+				<li class="property">
+					<strong class="property_name">Type de projet :</strong>
+					Application mobile
+				</li>
+				<li class="property">
+					<strong class="property_name">Langages utilisés :</strong>
+					Dart, SQL
+				</li>
+				<li class="property">
+					<strong class="property_name">Technologies utilisées :</strong>
+					Flutter, Sqflite
+				</li>
+				<li class="property">
+					<strong class="property_name">Période de développement :</strong>
+					10/2024
+				</li>
+				<li class="property">
+					<strong class="property_name">Contexte :</strong>
+					Bachelor développemnt - Cours Flutter
+				</li>
+				<li class="property">
+					<strong class="property_name">Statut :</strong>
+					Terminé
+				</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2 class="section_title">Description du projet :</h2>
+			<p class="description">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				Cette application permet de noter des tâches à effectuer, de les organiser en catégories (<strong>Capture 1</strong>) et de les marquer comme "effectuées". Les données sont stockées localement dans une base de données SQLite. Le module Flutter permet de faire de la programmation par composants pour la création des pages et l'application fonctionne selon le design pattern Producer/Consumer pour les listes des catégories et de tâches, et pour le système de cases à cocher.
+			</p>
+			<p class="description">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				L'utilisateur peut ainsi ajouter des catégories (<strong>Capture 2</strong>), les éditer (<strong>Capture 3</strong>), les supprimer (<strong>Capture 4</strong>), y ajouter des tâches ou en supprimer (<strong>Capture 5</strong>), et enfin les marquer comme "effectuées" en tapant sur les cases à cocher (<strong>Capture 5</strong>).
+			</p>
+		</div>
+
+		<div class="section">
+			<h2 class="section_title">Illustrations :</h2>
+			<div id="illustrations">
+				<div class="illustration">
+					<img class="content" src="../../res/images/todo_list_1.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 1 :</strong>
+						Page principale avec liste des catégories
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/todo_list_2.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 2 :</strong>
+						Page d'ajout de catégorie
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/todo_list_3.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 3 :</strong>
+						Page d'édition de catégorie
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/todo_list_4.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 4 :</strong>
+						Fenêtre modale de suppression de catégorie
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/todo_list_5.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 5 :</strong>
+						Page de détail d'une catégorie avec liste des tâches
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset=UTF-8>
+		<title>Simulation de billard</title>
+		<link rel="icon" href="../../res/icons/portfolio.ico">
+		<link rel="stylesheet" href="../styles/style_project.css">
+		<style>
+			div#illustrations { justify-content: space-around; }
+			div.illustration { width: 45%; }
+		</style>
+	</head>
+
+	<body>
+	
+		<h1 id="title">Simulation de billard</h1>
+
+		<button id="home_button" onclick="window.location.href='../index.html';">
+			<img src="../../res/icons/home.ico">
+		</button>
+
+		<div class="section">
+			<h2 class="section_title">Informations générales :</h2>
+			<ul id="properties">
+				<li class="property">
+					<strong class="property_name">Type de projet :</strong>
+					Logiciel desktop
+				</li>
+				<li class="property">
+					<strong class="property_name">Langage utilisé :</strong>
+					Python
+				</li>
+				<li class="property">
+					<strong class="property_name">Technologie utilisée :</strong>
+					Tkinter
+				</li>
+				<li class="property">
+					<strong class="property_name">Période de développement :</strong>
+					12/2021
+				</li>
+				<li class="property">
+					<strong class="property_name">Contexte :</strong>
+					Licence 2 Physique - UE Maths
+				</li>
+				<li class="property">
+					<strong class="property_name">Statut :</strong>
+					Inachevé
+				</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2 class="section_title">Description du projet :</h2>
+			<p class="description">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				Ce logiciel à pour objectif de simuler un jeu de billard pool (blackball) en appliquant la mécanique des solides afin de calculer les effets des chocs élastiques et inélastiques. Les éléments à modéliser sont les chocs entre les billes, les chocs entre les billes et les bandes, les frottements de l'air sur les billes et les frottements du tapis sur les billes.
+			</p>
+			<p class="description">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				Cependant, le temps de développement beaucoup trop court pour un projet aussi ambitieux ne m'a pas permis de le terminer. Les seuls éléments réellement développés sont le déplacement de la bille blanche seule avec les rebonds sur les bandes (<strong>Capture 1</strong>), ainsi que la situation initiale avec les billes de couleur (<strong>Capture 2</strong>). Les paramètres définissables par l'utilisateur pour le déplacement de la bille blanche sont la direction et la vitesse initiales (<strong>Vidéos</strong>).
+			</p>
+		</div>
+
+		<div class="section">
+			<h2 class="section_title">Illustrations :</h2>
+			<div id="illustrations">
+				<div class="illustration">
+					<img class="content" src="../../res/images/billard_simulation_1.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 1 :</strong>
+						Choix des paramètres du coup
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/billard_simulation_2.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 2 :</strong>
+						Positions initiales des billes
+					</div>
+				</div>
+				<div class="illustration">
+					<video class="content" src="../../res/videos/billard_simulation_1.mp4" controls>Vidéo</video>
+					<div class="legend">
+						<strong>Vidéo 1 :</strong>
+						Exemple de coup (direction = (1, 0), vitesse = 1 m/s)
+					</div>
+				</div>
+				<div class="illustration">
+					<video class="content" src="../../res/videos/billard_simulation_2.mp4" controls>Vidéo</video>
+					<div class="legend">
+						<strong>Vidéo 2 :</strong>
+						Exemple de coup (direction = (2, 1), vitesse = 1 m/s)
+					</div>
+				</div>
+				<div class="illustration">
+					<video class="content" src="../../res/videos/billard_simulation_3.mp4" controls>Vidéo</video>
+					<div class="legend">
+						<strong>Vidéo 3 :</strong>
+						Exemple de coup (direction = (1, -2), vitesse = 2 m/s)
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+
+</html>

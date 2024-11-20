@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset=UTF-8>
+		<title>Races de chats</title>
+		<link rel="icon" href="../../res/icons/portfolio.ico">
+		<link rel="stylesheet" href="../styles/style_project.css">
+		<style>
+			div#illustrations { justify-content: space-around; }
+			div.illustration { width: min-content; }
+			img.content { height: 100vh; }
+		</style>
+	</head>
+
+	<body>
+	
+		<h1 id="title">Races de chats</h1>
+
+		<button id="home_button" onclick="window.location.href='../index.html';">
+			<img src="../../res/icons/home.ico">
+		</button>
+
+		<div class="section">
+			<h2 class="section_title">Informations générales :</h2>
+			<ul id="properties">
+				<li class="property">
+					<strong class="property_name">Type de projet :</strong>
+					Application mobile
+				</li>
+				<li class="property">
+					<strong class="property_name">Langage utilisé :</strong>
+					Dart, SQL
+				</li>
+				<li class="property">
+					<strong class="property_name">Technologies utilisées :</strong>
+					Flutter, Sqflite
+				</li>
+				<li class="property">
+					<strong class="property_name">Période de développement :</strong>
+					09/2024
+				</li>
+				<li class="property">
+					<strong class="property_name">Contexte :</strong>
+					Bachelor développement - Cours Flutter
+				</li>
+				<li class="property">
+					<strong class="property_name">Statut :</strong>
+					Terminé
+				</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2 class="section_title">Description du projet :</h2>
+			<p class="description">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				Cette application récupère une liste de races de chats et des données sur chacune d'entre elles sur une API REST (The Cat API), puis permet à l'utilisateur de visionner les informations (<strong>Capture 1</strong> et <strong>Capture 2</strong>) et d'enregistrer des races dans une liste de favoris (<strong>Capture 3</strong>) stockée localement dans une base de données SQLite. Le module Flutter permet de faire de la programmation par composants pour la création des pages et le système de favoris fonctionne selon le design pattern Producer/Consumer.
+			</p>
+		</div>
+
+		<div class="section">
+			<h2 class="section_title">Illustrations :</h2>
+			<div id="illustrations">
+				<div class="illustration">
+					<img class="content" src="../../res/images/cat_breeds_1.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 1 :</strong>
+						Page principale<br> avec liste des races
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/cat_breeds_2.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 2 :</strong>
+						Page de détail d'une race
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../../res/images/cat_breeds_3.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 3 :</strong>
+						Page des favoris
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+
+</html>
