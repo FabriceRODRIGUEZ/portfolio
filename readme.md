@@ -3,7 +3,7 @@
 
 ## Description du projet
 
-Portfolio personnel
+Portfolio personnel des projets réalisés
 
 
 ## Membres du projet

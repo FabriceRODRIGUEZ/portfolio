@@ -1,5 +1,5 @@
 body {
-    margin: 20px;
+    margin: 30px 50px;
     background-color: burlywood;
 }
 
@@ -13,10 +13,16 @@ h1#title {
 
 button#home_button {
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: 30px;
+	left: 50px;
 	background-color: transparent;
 	border: none;
+	border-radius: 5px;
+}
+
+button#home_button:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 div.section {
@@ -33,11 +39,16 @@ h2.section_title {
 
 ul#properties {
 	margin: 0px;
+	width: max-content;
 	font-size: large;
 }
 
 li.property {
-	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+li.property:last-child {
+	margin-bottom: 0px;
 }
 
 p.description {
@@ -47,17 +58,21 @@ p.description {
 	font-size: large;
 }
 
+p.description > strong {
+	font-style: italic;
+}
+
 div#illustrations {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 30px 0px;
+	row-gap: 30px;
 }
 
 div.illustration {
 	display: flex;
 	flex-direction: column;
-	gap: 10px 0px;
+	gap: 15px;
 }
 
 div.legend {
@@ -66,10 +81,19 @@ div.legend {
 	font-style: italic;
 }
 
-button#home_button:hover { cursor: pointer; }
-li.property:first-child { margin-top: 0px; }
-div.legend strong { text-decoration: underline; }
-p.description strong { font-style: italic; }
+div.legend > strong {
+	text-decoration: underline;
+}
+
+/* - - - */
+
+/* @media(max-width: 600px) {
+
+    body {
+        margin: 0px;
+    }
+
+} */
 
 /* - - - */
 

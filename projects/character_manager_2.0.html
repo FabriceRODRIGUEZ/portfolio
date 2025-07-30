@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset=UTF-8>
-		<title>Gestionnaire de personnages</title>
+		<title>Gestionnaire de personnages 2.0</title>
 		<link rel="icon" href="../res/icons/portfolio.ico">
 		<link rel="stylesheet" href="../styles/style_project.css">
 		<style>
@@ -15,7 +15,7 @@
 
 	<body>
 
-		<h1 id="title">Gestionnaire de personnages</h1>
+		<h1 id="title">Gestionnaire de personnages 2.0</h1>
 
 		<button id="home_button" onclick="location.href='../index.html';">
 			<img src="../res/icons/home.ico">
@@ -31,19 +31,19 @@
 				</li>
 				<li class="property">
 					<strong class="property_name">Langages utilisés :</strong>
-					Python, SQL, HTML, CSS, Javascript
+					Javascript, SQL, HTML, CSS
 				</li>
 				<li class="property">
 					<strong class="property_name">Technologies utilisées :</strong>
-					Flask, Sqlite3, Jinja2
+					Node.js, Docker, Figma
 				</li>
 				<li class="property">
 					<strong class="property_name">Période de développement :</strong>
-					03/2024 - 04/2024
+					03/2025 - 06/2025
 				</li>
 				<li class="property">
 					<strong class="property_name">Contexte :</strong>
-					Licence 2 Informatique - UE Web
+					Bachelor Développement Web et Mobile
 				</li>
 				<li class="property">
 					<strong class="property_name">Statut :</strong>
@@ -57,16 +57,16 @@
 
 			<p class="description">
 				&nbsp;&nbsp;&nbsp;&nbsp;
-				Cette application de gestion de personnages est conçue selon une architecture MVC (Model View Controller), avec l'utilisation du module Flask pour le serveur, du module Sqlite3 pour le modèle de données et de templates Jinja2 pour les vues. Les données sont stockées dans une base de données SQLite.
+				Cette application de gestion de personnages est conçue selon une architecture MVC (Modèle Vue Contrôleur), avec l'utilisation de Node.js pour le serveur, notamment les modules Express.js pour les routes et le module Pg pour les requêtes SQL. Les données sont stockées dans une base de données relationnelle PostgreSQL.
 			</p>
-			<p class="description">
+			<!-- <p class="description">
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				Le principe est de constituer une liste de personnages préférés, de leur attribuer un niveau d'appréciation, et de pouvoir ensuite les filtrer et les trier dynamiquement selon leur propriétés, afin d'avoir une vue globale de son état d'appréciation. Les propriétés des personnages sont les suivantes : prénom, nom, sexe, œuvre, acteur, doubleur, image de profil, niveau d'appréciation et commentaire.
-			</p>
-			<p class="description">
+			</p> -->
+			<!-- <p class="description">
 				&nbsp;&nbsp;&nbsp;&nbsp;
 				L'utilisateur peut donc créer un compte personnel (<strong>Capture 3</strong>) et s'y connecter (<strong>Capture 4</strong>) afin de retrouver sa liste de personnages (<strong>Capture 1</strong>). Il peut ensuite ajouter (<strong>Capture 5</strong> et <strong>Capture 6</strong>), éditer (<strong>Capture 7</strong>) ou supprimer (<strong>Capture 8</strong>) des personnages de sa liste. Enfin, il peut filtrer et trier sa liste, par exemple pour n'afficher que les personnages d'une certaine œuvre triés par niveaux d'appréciation décroissants (<strong>Capture 9</strong> à <strong>Capture 12</strong>).
-			</p>
+			</p> -->
 		</div>
 
 		<div class="section">
@@ -74,87 +74,73 @@
 
 			<div id="illustrations">
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_1.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_1.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 1 :</strong>
+						Page d'acceuil de l'application
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_8.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 2 :</strong>
 						Page principale avec liste des personnages
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_2.png" alt="Illustration">
-					<div class="legend">
-						<strong>Capture 2 :</strong>
-						Boutons d'édition et de suppression en survolant un personnage
-					</div>
-				</div>
-				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_3.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_2.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 3 :</strong>
 						Page de création de compte utilisateur
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_4.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_3.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 4 :</strong>
 						Page de connexion
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_5.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_4.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 5 :</strong>
-						Page d'ajout de personnage
+						Fenêtre modale d'ajout de personnage
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_6.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_5.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 6 :</strong>
-						Message si absence d'une propriété obligatoire
+						Fenêtre modale d'édition d'un personnage
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_7.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_6.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 7 :</strong>
-						Page d'édition préremplie d'un personnage
+						Fenêtre modale de suppression d'un personnage
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_8.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_7.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 8 :</strong>
-						Page de suppression de personnage
+						Fenêtre modale de filtrage de la liste
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_9.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_9.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 9 :</strong>
-						Démonstration de tri par appréciation (avant le tri)
+						Démonstration de tri par appréciation
 					</div>
 				</div>
 				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_10.png" alt="Illustration">
+					<img class="content" src="../res/images/character_manager_(2.0)_10.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 10 :</strong>
-						Démonstration de tri par appréciation (après le tri)
-					</div>
-				</div>
-				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_11.png" alt="Illustration">
-					<div class="legend">
-						<strong>Capture 11 :</strong>
-						Exemple d'utilisation (avant le tri)
-					</div>
-				</div>
-				<div class="illustration">
-					<img class="content" src="../res/images/character_manager_12.png" alt="Illustration">
-					<div class="legend">
-						<strong>Capture 12 :</strong>
-						Exemple d'utilisation (après le tri)
+						Page de gestion de compte
 					</div>
 				</div>
 			</div>

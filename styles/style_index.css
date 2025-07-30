@@ -21,7 +21,7 @@ div#list_projects {
 }
 
 button.project {
-	padding: 10px;
+	padding: 10px 20px;
 	background-color: lightgrey;
 	border: 2px solid black;
 	border-radius: 5px;
@@ -36,6 +36,16 @@ button.project:hover {
 	color: brown;
 	text-decoration: underline;
 }
+
+/* - - - */
+
+/* @media(max-width: 600px) {
+
+    body {
+        margin: 0px;
+    }
+
+} */
 
 /* - - - */
 
