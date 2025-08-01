@@ -7,8 +7,9 @@
 		<link rel="icon" href="../res/icons/portfolio.ico">
 		<link rel="stylesheet" href="../styles/style_project.css">
 		<style>
-			div#illustrations { justify-content: space-between; }
-			div.illustration { width: calc(50% - 15px); }
+			div#illustrations { justify-content: space-around; align-items: center; }
+			div.illustration { width: min-content; max-width: 65%; }
+			img.content { max-height: 80vh; }
 		</style>
 	</head>
 
@@ -17,7 +18,7 @@
 		<h1 id="title">Site de chorale</h1>
 
 		<button id="home_button" onclick="location.href='../index.html';">
-			<img src="../res/icons/home.ico">
+			<img src="../res/icons/home.ico" alt="Accueil">
 		</button>
 
 		<div class="section">
@@ -30,7 +31,7 @@
 				</li>
 				<li class="property">
 					<strong class="property_name">Langage de programmation :</strong>
-					HTML, CSS, JavaScript
+					JavaScript, HTML, CSS
 				</li>
 				<li class="property">
 					<strong class="property_name">Technologies utilisées :</strong>
@@ -38,11 +39,11 @@
 				</li>
 				<li class="property">
 					<strong class="property_name">Période de développement :</strong>
-					02/2025 - 03/2025
+					Depuis 02/2025
 				</li>
 				<li class="property">
 					<strong class="property_name">Contexte :</strong>
-					Demande d'une association
+					Activité associative
 				</li>
 				<li class="property">
 					<strong class="property_name">Statut :</strong>
@@ -55,14 +56,14 @@
 			<h2 class="section_title">Description du projet :</h2>
 
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				Texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte.
+				Il s'agit d'un site vitrine pour l'association de chorale "Praise Gospel" comportant un espace privé pour les membres de l'association, afin d'y retrouver les textes et les pistes audio des chants travaillés. L'authentification est faite par des cookies de session à l'aide d'un petit serveur Node.js. L'ensemble du site est doté d'un design responsive, de manière à s'afficher correctement sur les appareils mobiles.
 			</p>
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				Texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte texte.
+				La partie publique du site est constituée d'une page d'accueil (<strong>Captures 1 et 2</strong>), d'une page de présentation de la chorale (<strong>Captures 3 et 4</strong>), d'une page présentant les membres avec un trombinoscope (à venir), d'une page montrant les anciens concerts (<strong>Captures 5 et 6</strong>), d'une page de contacts (<strong>Captures 7 et 8</strong>), et enfin d'une page de connexion à l'espace privé (<strong>Captures 9 et 10</strong>).
 			</p>
-			<!-- <a href="https://praisegospel.fr" style="color: blue;">https://praisegospel.fr</a> -->
+			<div id="link">
+				Lien vers le site : <a href="https://praisegospel.fr" style="color: blue;">https://praisegospel.fr</a>
+			</div>
 		</div>
 
 		<div class="section">
@@ -73,7 +74,70 @@
 					<img class="content" src="../res/images/choir_site_1.png" alt="Illustration">
 					<div class="legend">
 						<strong>Capture 1 :</strong>
-						Page d'accueil
+						Page d'accueil<br>&nbsp;
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_6.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 2 :</strong>
+						Page d'accueil sur mobile
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_7.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 3 :</strong>
+						Page de présentation sur mobile
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_2.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 4 :</strong>
+						Page de présentation<br>&nbsp;
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_3.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 5 :</strong>
+						Page des anciens concerts<br>&nbsp;
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_8.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 6 :</strong>
+						Page des anciens concerts sur mobile
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_9.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 7 :</strong>
+						Page des contacts sur mobile
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_4.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 8 :</strong>
+						Page des contacts<br>&nbsp;
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_5.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 9 :</strong>
+						Page de connexion à l'espace privé<br>&nbsp;
+					</div>
+				</div>
+				<div class="illustration">
+					<img class="content" src="../res/images/choir_site_10.png" alt="Illustration">
+					<div class="legend">
+						<strong>Capture 10 :</strong>
+						Page de connexion sur mobile
 					</div>
 				</div>
 			</div>

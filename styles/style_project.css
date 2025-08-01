@@ -55,6 +55,7 @@ p.description {
     margin: 0px;
 	margin-top: 5px;
 	text-align: justify;
+	text-indent: 25px;
 	font-size: large;
 }
 
@@ -62,8 +63,15 @@ p.description > strong {
 	font-style: italic;
 }
 
+div#link {
+	margin-top: 20px;
+	font-size: large;
+	font-weight: bold;
+}
+
 div#illustrations {
     display: flex;
+	margin-top: 30px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	row-gap: 30px;
@@ -73,6 +81,11 @@ div.illustration {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
+}
+
+img.content {
+	display: block;
+	box-shadow: 0 0 10px black;
 }
 
 div.legend {
@@ -106,5 +119,5 @@ div.legend > strong {
 /* li.property { border: 2px solid black; } */
 /* p.description { border: 2px solid black; } */
 /* div#illustrations { border: 2px solid black; } */
-/* div.illustration { border: 2px solid black; } */
-/* div.legend { border: 2px solid black; } */
+/* div.illustration { border: 2px solid red; } */
+/* div.legend { border: 2px solid blue; } */

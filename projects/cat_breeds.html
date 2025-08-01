@@ -9,7 +9,7 @@
 		<style>
 			div#illustrations { justify-content: space-around; }
 			div.illustration { width: min-content; }
-			img.content { height: 70vh; box-shadow: 0 0 10px black; }
+			img.content { height: 70vh; }
 		</style>
 	</head>
 
@@ -18,7 +18,7 @@
 		<h1 id="title">Races de chats</h1>
 
 		<button id="home_button" onclick="location.href='../index.html';">
-			<img src="../res/icons/home.ico">
+			<img src="../res/icons/home.ico" alt="Accueil">
 		</button>
 
 		<div class="section">
@@ -56,7 +56,6 @@
 			<h2 class="section_title">Description du projet :</h2>
 
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
 				Cette application récupère une liste de races de chats et des données sur chacune d'entre elles sur une API REST (The Cat API), puis permet à l'utilisateur de visionner les informations (<strong>Capture 1</strong> et <strong>Capture 2</strong>) et d'enregistrer des races dans une liste de favoris (<strong>Capture 3</strong>) stockée localement dans une base de données SQLite. Le module Flutter permet de faire de la programmation par composants pour la création des pages et le système de favoris fonctionne selon le design pattern Producer/Consumer.
 			</p>
 		</div>

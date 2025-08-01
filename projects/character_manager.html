@@ -9,7 +9,6 @@
 		<style>
 			div#illustrations { justify-content: space-between; }
 			div.illustration { width: calc(50% - 15px); }
-			img.content { box-shadow: 0 0 10px black; }
 		</style>
 	</head>
 
@@ -18,7 +17,7 @@
 		<h1 id="title">Gestionnaire de personnages</h1>
 
 		<button id="home_button" onclick="location.href='../index.html';">
-			<img src="../res/icons/home.ico">
+			<img src="../res/icons/home.ico" alt="Accueil">
 		</button>
 
 		<div class="section">
@@ -56,16 +55,13 @@
 			<h2 class="section_title">Description du projet :</h2>
 
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
 				Cette application de gestion de personnages est conçue selon une architecture MVC (Model View Controller), avec l'utilisation du module Flask pour le serveur, du module Sqlite3 pour le modèle de données et de templates Jinja2 pour les vues. Les données sont stockées dans une base de données SQLite.
 			</p>
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				Le principe est de constituer une liste de personnages préférés, de leur attribuer un niveau d'appréciation, et de pouvoir ensuite les filtrer et les trier dynamiquement selon leur propriétés, afin d'avoir une vue globale de son état d'appréciation. Les propriétés des personnages sont les suivantes : prénom, nom, sexe, œuvre, acteur, doubleur, image de profil, niveau d'appréciation et commentaire.
+				Le principe est de constituer une liste de personnages préférés, de leur attribuer un niveau d'appréciation, et de pouvoir ensuite les filtrer et les trier dynamiquement selon leurs propriétés, afin d'avoir une vue globale de son état d'appréciation. Les propriétés des personnages sont les suivantes : prénom, nom de famille, sexe, œuvre, acteur, doubleur, image de profil, niveau d'appréciation et commentaire.
 			</p>
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				L'utilisateur peut donc créer un compte personnel (<strong>Capture 3</strong>) et s'y connecter (<strong>Capture 4</strong>) afin de retrouver sa liste de personnages (<strong>Capture 1</strong>). Il peut ensuite ajouter (<strong>Capture 5</strong> et <strong>Capture 6</strong>), éditer (<strong>Capture 7</strong>) ou supprimer (<strong>Capture 8</strong>) des personnages de sa liste. Enfin, il peut filtrer et trier sa liste, par exemple pour n'afficher que les personnages d'une certaine œuvre triés par niveaux d'appréciation décroissants (<strong>Capture 9</strong> à <strong>Capture 12</strong>).
+				L'utilisateur peut donc créer un compte personnel (<strong>Capture 3</strong>) et s'y connecter (<strong>Capture 4</strong>) afin de retrouver sa liste de personnages (<strong>Capture 1</strong>). Il peut ensuite ajouter (<strong>Capture 5</strong> et <strong>Capture 6</strong>), éditer (<strong>Capture 7</strong>) ou supprimer (<strong>Capture 8</strong>) des personnages de sa liste. Enfin, il peut filtrer et trier sa liste, par exemple pour n'afficher que les personnages d'une certaine œuvre triés par niveau d'appréciation décroissant (<strong>Capture 9</strong> à <strong>Capture 12</strong>).
 			</p>
 		</div>
 

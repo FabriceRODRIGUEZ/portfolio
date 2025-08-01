@@ -9,7 +9,7 @@
 		<style>
 			div#illustrations { justify-content: space-around; }
 			div.illustration { width: min-content; }
-			img.content { height: 70vh; box-shadow: 0 0 10px black; }
+			img.content { height: 70vh; }
 		</style>
 	</head>
 
@@ -18,7 +18,7 @@
 		<h1 id="title">Liste de tâches</h1>
 
 		<button id="home_button" onclick="location.href='../index.html';">
-			<img src="../res/icons/home.ico">
+			<img src="../res/icons/home.ico" alt="Accueil">
 		</button>
 
 		<div class="section">
@@ -56,11 +56,9 @@
 			<h2 class="section_title">Description du projet :</h2>
 
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
 				Cette application permet de noter des tâches à effectuer, de les organiser en catégories (<strong>Capture 1</strong>) et de les marquer comme "effectuées". Les données sont stockées localement dans une base de données SQLite. Le module Flutter permet de faire de la programmation par composants pour la création des pages et l'application fonctionne selon le design pattern Producer/Consumer pour les listes des catégories et de tâches, et pour le système de cases à cocher.
 			</p>
 			<p class="description">
-				&nbsp;&nbsp;&nbsp;&nbsp;
 				L'utilisateur peut ainsi ajouter des catégories (<strong>Capture 2</strong>), les éditer (<strong>Capture 3</strong>), les supprimer (<strong>Capture 4</strong>), y ajouter des tâches ou en supprimer (<strong>Capture 5</strong>), et enfin les marquer comme "effectuées" en tapant sur les cases à cocher (<strong>Capture 5</strong>).
 			</p>
 		</div>
